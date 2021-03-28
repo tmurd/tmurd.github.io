@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Home | Rexburg Tabernacle</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" id="home-nav">
+      <div class="container margin-0 padding-0">
+        <a class="navbar-brand" href="#"><img class="navbar-logo" src="images/Rexburg-Idaho-seal_Final.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about_us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav justify-content-end justify-self-end">
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:jed.platt@rexburg.org">jed.platt@rexburg.org</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tel:208-359-3020">208-359-3020</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container text-center mt-5">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-6">
+                <img class="etsy-logo img-fluid" src="images/Etsy-emblem 2.0.png">
+            </div>
+            <div class="col-6">
+                <h2>Etsy event at the tabernacle.</h2>
+                <p> July 4th 8am-1pm.</p>
+                <p>Purchase your tickets now or sign up to be a vendor.</p>
+                <button class="btn btn-dark mt-4 mr-5" id="vendor">Vendors</button>
+                <button class="btn btn-dark mt-4 ml-5" id="tickets">Tickets</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer class="container-fluid text-white mb-0 px-0" id="footer-events">
+      <div class="pb-3 pt-2 text-center" id="footer-contact">
+        <p class="mb-2">jed.platt@rexburg.org</p>
+        <p class="mb-0">51 N Center Street</p>
+        <p class="mb-0">Idaho, Madison County 83440</p>
+        <p class="mb-0">208-359-3020</p>
+      </div>
+      <div class="mb-0 pt-4 pb-1 row" id="footer-copyright">
+        <div class="col-10">
+            <p class="pl-5">©2021 by Rexburg Tabernacle</p>
+          </div>
+          <div class="col-2 pr-0">
+            <a href="https://www.facebook.com/rexburgarts" target="_blank"><img class="social" src="images/facebook.png"></a>
+            <a href="https://www.instagram.com/rexburgarts/" target="_blank"><img class="social" src="images/insta.png"></a>
+          </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+
+
+    <script src="scripts/main.js" type="text/javascript"></script>
+    <!-- For google maps -->
+    <script defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXdQWwpBLq18C_G8OFJgaqG1AM3SKkbE8&callback=initMap">
+    </script>
+
+    <!-- For sending emails -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </body>
+
+</html>
