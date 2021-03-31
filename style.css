@@ -122,7 +122,6 @@ hr {
 }
 
 .card-a {
-    /* position: relative; */
     display: grid;
     grid-template-rows: 1fr;
     text-align: center;
@@ -195,6 +194,10 @@ hr {
     background-color: #263968;
 }
 
+.etsy-content {
+    padding-top: 6%;
+}
+
 .button-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -247,5 +250,19 @@ hr {
 
     .about-us-content {
         padding-top: 10px;
+    }
+
+    .etsy-content {
+        padding-top: 10%;
+    }
+
+    .event-btn-left {
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+    
+    .event-btn-right {
+        margin-right: 25%;
+        margin-left: 25%;
     }
 }
