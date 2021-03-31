@@ -273,3 +273,9 @@ hr {
         margin: 0;
     }
 }
+
+@media (max-width: 992px) {
+    #about_us {
+        height: 750px;
+    }
+}
