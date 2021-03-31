@@ -8,8 +8,10 @@ $(function () {
   });
 });
 
+// Makes the navbar not transparent when expanded
 document.querySelector(".navbar-toggler").addEventListener("click", function() {
-  document.querySelector("nav").classList.toggle("transparent");
+  if (document.querySelector(".navbar").id != "event-nav")
+    document.querySelector("nav").classList.toggle("transparent");
 });
 
 // For google maps
