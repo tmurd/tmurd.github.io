@@ -82,6 +82,15 @@ hr {
     text-align: center;
 }
 
+#about_us {
+    background-color: rgba(160, 152, 146, .4);
+    height: 480px;
+}
+
+.about-us-content {
+    padding-top: 35px;
+}
+
 /* card styles */
 .card-grid {
     display: grid;
@@ -185,6 +194,23 @@ hr {
     background-color: #263968;
 }
 
+.button-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.event-btn {
+    width: fit-content;
+    justify-self: center;
+}
+
+.event-btn-left {
+    margin-left: 25%;
+}
+
+.event-btn-right {
+    margin-right: 25%;
+}
 /* End event */
 
 /* Footer styles */
@@ -212,5 +238,13 @@ hr {
 @media (max-width: 1000px) {
     #map {
         height: 300px;
+    }
+
+    #about_us {
+        height: 700px;
+    }
+
+    .about-us-content {
+        padding-top: 10px;
     }
 }
