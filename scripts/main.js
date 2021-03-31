@@ -8,6 +8,10 @@ $(function () {
   });
 });
 
+document.querySelector(".navbar-toggler").addEventListener("click", function() {
+  document.querySelector("nav").classList.toggle("transparent");
+});
+
 // For google maps
 // function initMap() {
 //   // The location of Uluru
