@@ -319,8 +319,8 @@ hr {
 
 @media (max-width: 500px) {
     .social {
-        height: 90%;
-        width: 47.5%;
+        height: 30px;
+        width: 30px;
         padding: 0;
     }
 }
