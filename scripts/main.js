@@ -10,7 +10,7 @@ $(function () {
 
 // Makes the navbar not transparent when expanded
 document.querySelector(".navbar-toggler").addEventListener("click", function() {
-  if (document.querySelector(".navbar").id != "event-nav")
+  if (document.querySelector(".navbar").id == "home-nav")
     document.querySelector("nav").classList.toggle("transparent");
 });
 
