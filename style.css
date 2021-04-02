@@ -222,6 +222,21 @@ hr {
 }
 /* End event */
 
+/* adventure styles */
+/* #adventure-body {
+    
+} */
+
+.adventure-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-gap: 1em;
+    width: 80%;
+    margin: 5% auto 5% auto;
+    justify-items: center;
+}
+/* end adventure styles */
+
 /* Footer styles */
 #footer-contact {
     background-color: #AAA29D;
@@ -322,5 +337,9 @@ hr {
         height: 30px;
         width: 30px;
         padding: 0;
+    }
+
+    .footer-social {
+        margin-right: 0px;
     }
 }
